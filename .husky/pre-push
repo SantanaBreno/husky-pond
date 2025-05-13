@@ -1,0 +1,5 @@
+echo "Rodando testes antes de fazer push..."
+
+npm run test || (echo "Testes falharam. Corrija os erros antes de fazer push." && exit 1)
+
+echo "Testes passaram. Prosseguindo com o push..."

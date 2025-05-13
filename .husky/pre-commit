@@ -1,0 +1,5 @@
+echo "Rodando eslint e arrumando o código..."
+
+npm run check:fix || (echo "Erro ao rodar o eslint" && exit 1)
+
+echo "Feito!"
