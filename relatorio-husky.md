@@ -6,8 +6,11 @@
 2. Inicialização do projeto Node com `npm init -y`.
 3. Instalação do Husky, ESLint e Jest.
 4. Configuração dos hooks:
-   - `pre-commit`: compila o código e executa o lint.
-   - `pre-push`: executa os testes com Jest.
+   - `pre-commit`: checa o código e arruma com o ESLint:
+    ![pre-commit](./img/pre-commit.sh.png)
+
+   - `pre-push`: executa os testes com Jest:
+   ![pre-commit](./img/pre-push.sh.png)
 5. Criação de testes simples.
 6. Execução de commits semânticos.
 
